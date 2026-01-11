@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal website</title>
+    <style>
+        
+        body { 
+            font-family: sans-serif; 
+            background-color: lightgray; 
+            text-align: center; 
+        }
+
+        .card { 
+            background-color: white; 
+            width: 80%; 
+            margin: auto; 
+            padding: 20px; 
+            border: 2px solid black; 
+        }
+        
+        header {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 30%;      
+            border: 2px solid black; 
+            border-radius: 10px;   
+        }
+
+        h3 { 
+            color: red; 
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <div class="card">
+        <h2>About Me</h2>
+        <p>I am good at fixing cars  and cooking food .I want to be good at making websites </p>
+
+        <h3>Pro Car Mechanic</h3>
+        <p>I fix engines, replace the engines and tyres. If you car has issues I will fix it.</p>
+        
+        <div>
+            <img src="engine.jpg" alt="Engine">
+            <img src="tire.jpg" alt="Tire">
+            <img src="garage.jpg" alt="Garage">
+        </div>
+
+        <br><hr><br>
+
+        <h3>Expert Cook</h3>
+        <p>I make great pilau, chicken and tea.It is wonderful.</p>
+
+        <div>
+            <img src="chicken.jpg" alt="Chicken">
+            <img src="tea.jpg" alt="Tea">
+            <img src="cooking.jpg" alt="Cooking">
+        </div>
+
+        <br><hr><br>
+
+        <h3>Contact Me</h3>
+        <p>Click the button below to say hello!</p>
+        
+        <button onclick="alert('Thanks for clicking!')">
+            Click Me
+        </button>
+
+    </div>
+
+</body>
+</html>
