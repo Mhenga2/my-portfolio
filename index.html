@@ -69,12 +69,28 @@
 
         <br><hr><br>
 
-        <h3>Contact Me</h3>
-        <p>Click the button below to say hello!</p>
+      <h3>Contact Me</h3>
+        <p>If you need a Mechanic or a Cook, fill this out:</p>
         
-        <button onclick="alert('Thanks for clicking!')">
-            Click Me
-        </button>
+        <form onsubmit="alert('Thank you! I will call you soon.'); return false;">
+            
+            <label>Name:</label><br>
+            <input type="text" placeholder="Enter your name" required style="padding: 5px; width: 60%; margin-bottom: 10px;">
+            <br>
+
+            <label>Email:</label><br>
+            <input type="email" placeholder="Enter your email" required style="padding: 5px; width: 60%; margin-bottom: 10px;">
+            <br>
+
+            <label>Phone Number:</label><br>
+            <input type="tel" placeholder="0712 345 678" required style="padding: 5px; width: 60%; margin-bottom: 10px;">
+            <br><br>
+
+            <button type="submit" style="background-color: red; color: white; padding: 10px 20px; border: none; cursor: pointer;">
+                Send Message
+            </button>
+
+        </form>
 
     </div>
 
